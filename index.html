@@ -2086,7 +2086,10 @@ function handleFormSubmit(){
 // RESUME DOWNLOAD
 // ============================
 function downloadResume(){
-  alert('📥 In production, this would download Srinith\'s actual resume PDF. Add your resume.pdf to the project root and update this function!');
+  const link = document.createElement('a');
+  link.href = 'Resume.pdf';
+  link.download = 'Srinith_Resume.pdf';
+  link.click();
 }
 
 // ============================
