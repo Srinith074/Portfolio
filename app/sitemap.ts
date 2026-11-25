@@ -1,0 +1,1 @@
+import data from '../data.json';import type {MetadataRoute} from 'next';export default function sitemap():MetadataRoute.Sitemap{return ['','/about','/projects','/contact',...data.projects.map(p=>'/projects/'+p.title.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/-$/,''))].map(p=>({url:'https://srinith.in'+p}))}

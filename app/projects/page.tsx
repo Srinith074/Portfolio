@@ -1,0 +1,1 @@
+import {Projects} from '../../components/ui';export const metadata={title:'Projects'};export default function Page(){return <section className="section"><p className="kicker">SELECTED WORK / 2026</p><h1 className="page-title">Projects<span>.</span></h1><p className="intro">Experiments in machine learning, computer vision and full-stack applications.</p><Projects/></section>}

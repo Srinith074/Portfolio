@@ -1,0 +1,120 @@
+{
+  "resumePath": "Assests/Sana_Srinith_Resume.pdf",
+  "contactEndpoint": "https://formspree.io/f/maeoapgp",
+  "projects": [
+    {
+      "title": "AutoVision AI",
+      "screenshot": "Assests/projects/autovision.png",
+      "category": "ai",
+      "label": "COMPUTER VISION",
+      "status": "Academic project · Open-source modernization",
+      "art": "vision",
+      "description": "Vehicle detection and tracking in uploaded traffic videos using pretrained YOLOv8, with annotated video and CSV exports.",
+      "details": "Uses OpenCV frame processing and ByteTrack tracking to count unique vehicles. FastAPI connects the detection pipeline to a React dashboard. Modernizes Ahmet Özlü’s MIT-licensed vehicle_counting_tensorflow project.",
+      "technologies": [
+        "Python",
+        "YOLOv8",
+        "OpenCV",
+        "ByteTrack",
+        "FastAPI",
+        "React"
+      ],
+      "source": "https://github.com/Srinith074/autovision-ai",
+      "demo": "https://autovision-ai-eight.vercel.app"
+    },
+    {
+      "title": "Voice Emotion Recognition",
+      "screenshot": "Assests/projects/voice-emotion.png",
+      "category": "ai",
+      "label": "MACHINE LEARNING",
+      "status": "Academic ML project · 72% reported accuracy",
+      "art": "audio",
+      "description": "Speech emotion classification across eight emotion classes using MFCC features and a Random Forest classifier.",
+      "details": "Uses the RAVDESS dataset and Librosa to extract MFCC means and standard deviations. The README reports 72% accuracy; evaluation has not been independently reproduced.",
+      "technologies": [
+        "Python",
+        "Librosa",
+        "Scikit-learn",
+        "NumPy",
+        "Pandas"
+      ],
+      "source": "https://github.com/Srinith074/VoiceEmotionRecognition"
+    },
+    {
+      "title": "InsightFlow",
+      "category": "web",
+      "label": "FULL-STACK ANALYTICS",
+      "status": "Personal project · Resume-listed",
+      "art": "network",
+      "screenshot": "Assests/projects/insightflow.png",
+      "description": "Full-stack analytics application with separate client, server and shared npm workspaces.",
+      "details": "Uses Recharts, Axios, Zustand, TanStack Query and Zod for visualization, API access and state management, as described in the resume.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Recharts",
+        "Axios",
+        "Zustand",
+        "Zod"
+      ],
+      "source": "https://github.com/Srinith074/InsightFlow"
+    },
+    {
+      "title": "NetPredict AI",
+      "screenshot": "Assests/projects/netpredict.png",
+      "category": "web",
+      "label": "CYBERSECURITY / AI CONCEPT",
+      "status": "SIH prototype · Simulated benchmarks",
+      "art": "network",
+      "description": "Security operations dashboard demonstrating network traffic analytics, threat forecasting and explainable AI workflows.",
+      "details": "Interactive scenarios, threat inspection and reporting demonstrate a proposed forecasting system. The documented benchmarks are simulated; a real Python ML backend is an integration goal.",
+      "technologies": [
+        "TypeScript",
+        "Vite",
+        "Data visualization"
+      ],
+      "source": "https://github.com/Srinith074/netpredict-ai",
+      "demo": "https://netpredict-ai.vercel.app"
+    },
+    {
+      "title": "PRASHAM",
+      "screenshot": "Assests/projects/prasham.png",
+      "category": "web",
+      "label": "ENTERPRISE AI CONCEPT",
+      "status": "SIH prototype · Synthetic data",
+      "art": "materials",
+      "description": "Material-code harmonization interface demonstrating duplicate detection, semantic matching and human review workflows.",
+      "details": "Demonstrates a proposed common material identity across public-sector enterprise catalogs. Uses illustrative records; semantic embeddings and entity resolution are proposed integrations, not validated production capabilities.",
+      "technologies": [
+        "React",
+        "Vite",
+        "JavaScript / TypeScript",
+        "Lucide React"
+      ],
+      "source": "https://github.com/Srinith074/PRASHAM",
+      "demo": "https://prasham.vercel.app"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Programming through Python",
+      "issuer": "CodeChef",
+      "date": "2025"
+    },
+    {
+      "title": "Data Structures through C++",
+      "issuer": "CodeChef",
+      "date": "2025"
+    },
+    {
+      "title": "Design and Analysis of Algorithms",
+      "issuer": "CodeChef",
+      "date": "2025"
+    },
+    {
+      "title": "Introduction to Python OpenCV",
+      "issuer": "Issuer not supplied",
+      "date": "2026"
+    }
+  ]
+}
