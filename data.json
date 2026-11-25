@@ -1,5 +1,5 @@
 {
-  "resumePath": "Assests/Sana_Srinith_Resume.pdf",
+  "resumePath": "/resume.pdf",
   "contactEndpoint": "https://formspree.io/f/maeoapgp",
   "projects": [
     {
@@ -44,11 +44,11 @@
       "title": "InsightFlow",
       "category": "web",
       "label": "FULL-STACK ANALYTICS",
-      "status": "Personal project · Resume-listed",
+      "status": "Personal project · Full-stack analytics",
       "art": "network",
       "screenshot": "Assests/projects/insightflow.png",
       "description": "Full-stack analytics application with separate client, server and shared npm workspaces.",
-      "details": "Uses Recharts, Axios, Zustand, TanStack Query and Zod for visualization, API access and state management, as described in the resume.",
+      "details": "The project explores chart visualization, API access, state management and data validation using Recharts, Axios, Zustand, TanStack Query and Zod.",
       "technologies": [
         "React",
         "TypeScript",
